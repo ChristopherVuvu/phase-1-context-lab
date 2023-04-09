@@ -77,15 +77,6 @@ function wagesEarnedOnDate(employeeRecord, date) {
     return wagesEarned;
 }
 
-//function allWagesFor(employee) {
-//    let totalWages = 0;
-//    employee.timeInEvents.forEach((timeInEvent) => {
-//        const wages = wagesEarnedOnDate(employee, timeInEvent.date);
-//        totalWages += wages;
-//    });
-//   return totalWages;
-//}
-
 function calculateTotalWages(employees) {
     let totalWages = 0;
     
